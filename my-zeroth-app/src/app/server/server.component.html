@@ -1,0 +1,11 @@
+<div class="container">
+ <div class="row">
+
+    <div class="col-xs-12">
+        <h1>in the app-component</h1>
+        <p (click)='updateServerStatus()' [ngStyle]="{backgroundColor:getColor()}" [ngClass]="{online:serverStatus==='online'}">server id = {{serverId}} is {{serverStatus}}</p>
+    </div>
+
+ </div>
+
+</div>
