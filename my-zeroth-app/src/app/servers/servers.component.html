@@ -20,4 +20,25 @@
 
 
 
+<table>
+ <thead>
+     <tr>
+         <th>biscuit</th>
+         <th>chai</th>
+         <th>namkeen</th>
+     </tr>
+ </thead>    
+ <tbody>
+     <tr *ngFor="let res of dummyResponse" (click)="dummyTablepopulate(res.biscuit)">
+         <td style="text-align:center"><span class="biscuits-name">{{res.biscuit}}</span></td>
+         <td style="text-align:center">{{res.chai}}</td>
+         <td style="text-align:center">{{res.namkeen}}</td>
+     </tr>
+ </tbody>
+</table>
+
+<p>biscuit name is {{biscuitName}}</p>
+
+
+
 

@@ -1,0 +1,6 @@
+.biscuits-name{cursor:pointer}
+.biscuits-name:hover{
+    cursor:pointer;
+    color:darkblue;
+   text-decoration: underline;
+}
